@@ -1,6 +1,6 @@
 {
-  "name": "x-giphy",
-  "version": "0.0.0",
+  "name": "ember-cli-giphy",
+  "version": "0.1.1",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -10,11 +10,11 @@
     "build": "ember build",
     "test": "ember test"
   },
-  "repository": "https://github.com/stefanpenner/ember-cli",
+  "repository": "https://github.com/dmacosta/ember-cli-giphy",
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Diego Acosta <diegonake@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "body-parser": "^1.2.0",
@@ -31,7 +31,11 @@
     "glob": "^4.0.5"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "giphy",
+    "ember",
+    "gif",
+    "ember-cli"
   ],
   "ember-addon": {
     "configPath": "tests/dummy/config"

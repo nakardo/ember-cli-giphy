@@ -1,17 +1,33 @@
-# X-giphy
+# ember-cli-giphy
 
-This README outlines the details of collaborating on this Ember addon.
+Based on Rob Dodson's [&lt;x-giphy&gt;](https://github.com/robdodson/x-giphy)
 
-## Installation
+## Usage
+
+`npm install --save-dev ember-cli-giphy`
+
+```hbs
+{{!-- term --}}
+{{x-giphy term='fail'}}
+
+{{!-- random --}}
+{{x-giphy term='fail' random=true}}
+
+{{!-- id --}}
+{{x-giphy gifId='m6aIggqT7oB4A'}}
+
+{{!-- translate --}}
+{{x-giphy term='fail' translate=true}}
+
+{{!-- key --}}
+{{x-giphy key='dc6zaTOxFJmzC' term='face palm'}}
+```
+
+## Development & Examples
 
 * `git clone` this repository
-* `npm install`
-* `bower install`
-
-## Running
-
 * `ember server`
-* Visit your app at http://localhost:4200.
+* Visit http://localhost:4200.
 
 ## Running Tests
 

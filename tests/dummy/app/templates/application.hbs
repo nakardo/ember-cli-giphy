@@ -1,3 +1,23 @@
 <h2 id='title'>Welcome to Ember.js</h2>
 
 {{outlet}}
+
+{{!-- term --}}
+<h4>\{{x-giphy term='fail'}}</h4>
+{{x-giphy term='fail'}}
+
+{{!-- random --}}
+<h4>\{{x-giphy term='fail' random=true}}</h4>
+{{x-giphy term='fail' random=true}}
+
+{{!-- id --}}
+<h4>\{{x-giphy gifId='m6aIggqT7oB4A'}}</h4>
+{{x-giphy gifId='m6aIggqT7oB4A'}}
+
+{{!-- translate --}}
+<h4>\{{x-giphy term='fail' translate=true}}</h4>
+{{x-giphy term='fail' translate=true}}
+
+{{!-- key --}}
+<h4>\{{x-giphy key='dc6zaTOxFJmzC' term='face palm'}}</h4>
+{{x-giphy key='dc6zaTOxFJmzC' term='face palm'}}
