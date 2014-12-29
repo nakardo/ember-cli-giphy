@@ -1,6 +1,6 @@
 import Ember from 'ember';
 
-var host = 'http://api.giphy.com/v1/gifs/',
+var host = '//api.giphy.com/v1/gifs/',
     key = 'dc6zaTOxFJmzC';
 
 export default Ember.Component.extend({
